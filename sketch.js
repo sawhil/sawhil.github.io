@@ -85,7 +85,7 @@ function Cell(i, j) {
         var x = this.i * w;
         var y = this.j * w;
         noStroke();
-        fill(0, 255, 0, 200);
+        fill(204, 255, 0);
         rect(x, y, w, w);
     }
     this.show = function() {
@@ -100,7 +100,7 @@ function Cell(i, j) {
 
         if (this.visited) {
             noStroke();
-            fill(255, 0, 255, 100);
+            fill(20, 255, 50, 120);
             rect(x, y, w, w);
         }
     }
